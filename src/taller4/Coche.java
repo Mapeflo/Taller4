@@ -14,10 +14,17 @@ public class Coche {
     private String modelo;
     private double velocidadMaxima;
 
-    public Coche(String marca, String modelo, double velocidadMaxima) {
-        this.marca = marca;
-        this.modelo = modelo;
-        this.velocidadMaxima = velocidadMaxima;
+public Coche() {
+        
+    this.marca = "Sin marca";
+    this.modelo = "Sin modelo";
+    this.velocidadMaxima = 0;
+    }
+
+public Coche(String marca, String modelo, double velocidadMaxima) {
+    this.marca = marca;
+    this.modelo = modelo;
+    this.velocidadMaxima = velocidadMaxima;
     }
 
 public void acelerar (double incremento) {
