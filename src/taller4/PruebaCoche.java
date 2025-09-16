@@ -9,10 +9,17 @@ package taller4;
  * @author marya
  */
 public class PruebaCoche {
-     public static void main(String[] args) {
-       
-         Coche coche = new coche ("Kia", "sorento", 100);
-         System.out.println(coche);
-        
+     
+    private String marca; 
+    
+    public PruebaCoche(String marca, String modelo, double velocidadMaxima) {
+        this.marca = marca; 
     }
+public class main {
+    public static void main(String[] args) {
+       
+         Coche coche = new coche ("Kia");
+         System.out.println(coche);   
+    }
+  }
 }
