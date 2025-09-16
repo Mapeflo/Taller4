@@ -65,7 +65,7 @@ public final class Estudiante {
     }else {
             System.out.println("La nota promedio debe estar entre 0 y 5");
             this.notaPromedio = 0;
-        }
+    }
   }
     
     

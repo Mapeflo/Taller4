@@ -18,8 +18,8 @@ public class PruebaCoche {
 public class main {
     public static void main(String[] args) {
        
-         Coche coche = new coche ("Kia");
-         System.out.println(coche);   
+        Coche coche = new coche ("Kia");
+        System.out.println(coche);   
     }
   }
 }

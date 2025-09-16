@@ -35,7 +35,8 @@ public void acelerar (double incremento) {
    else {
        System.out.println("Incremento no positivo. No hay cambios en velocidad maxima: " + velocidadMaxima + "k/h");
        } 
-     }
+     
+    }
   }  
     
 
